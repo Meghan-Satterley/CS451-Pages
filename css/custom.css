@@ -1,0 +1,56 @@
+.text-small {
+     font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+     outline: 0;
+}
+
+.bg-primary {
+     background-color: #ffcd00;
+     background-image: linear-gradient(315deg, #ffcd00 0%, #005238 74%);
+}
+
+.bi {
+     vertical-align: -.125em;
+     fill: currentColor;
+}
+
+.btn-bd-primary {
+     --bd-violet-bg: #2cf947;
+     --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+     --bs-btn-font-weight: 600;
+     --bs-btn-color: var(--bs-white);
+     --bs-btn-bg: var(--bd-violet-bg);
+     --bs-btn-border-color: var(--bd-violet-bg);
+     --bs-btn-hover-color: var(--bs-white);
+     --bs-btn-hover-bg: #28e041;
+     --bs-btn-hover-border-color: #28e037;
+     --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+     --bs-btn-active-color: var(--bs-btn-hover-color);
+     --bs-btn-active-bg: #23c847;
+     --bs-btn-active-border-color: #28c823;
+}
+
+.bd-mode-toggle {
+     z-index: 1500;
+}
+
+     .bd-mode-toggle .dropdown-menu .active .bi {
+          display: block !important;
+     }
+
+
+.img-fit {
+     width: 200px;
+     height: 200px;
+     object-fit: cover;
+}
+
+#transactionSearch {
+    margin-bottom: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
